@@ -6,7 +6,7 @@ import LargeCard from '../components/LargeCard';
 import MediumCard from '../components/MediumCard';
 import SmallCard from '../components/SmallCard';
 
-// 2:20:19
+// 2:15:22
 export default function Home({ exploreData, cardsData }) {
   return (
     <div className="">
@@ -14,6 +14,7 @@ export default function Home({ exploreData, cardsData }) {
         <title>Airbnb clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Header />
       <Banner />
 
